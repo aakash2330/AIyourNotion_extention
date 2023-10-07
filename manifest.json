@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": " AI your Notion Extension",
+  "version": "1.1",
+  "description": "(https://notion-ai-zeta.vercel.app).Open this extention up on the page where you want AI to fill in resources.Enter your Notion key",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
